@@ -1,0 +1,5 @@
+:schedule:
+  post_publish:
+    cron: "* * * * *"
+    class: "PostPublishScheduler"
+    queue: "default"
